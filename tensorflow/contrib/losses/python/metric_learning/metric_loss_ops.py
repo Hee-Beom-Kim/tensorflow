@@ -35,7 +35,7 @@ try:
   HAS_SKLEARN = True
 except ImportError:
   HAS_SKLEARN = False
-
+ 
 
 def pairwise_distance(feature, squared=False):
   """Computes the pairwise distance matrix with numerical stability.
